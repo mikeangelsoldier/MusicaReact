@@ -50,7 +50,7 @@ const ModalCancion = ({ showModalCancion, setShowModalCancion, setCancionAEditar
     return (
         <Modal isOpen={showModalCancion}>
             <ModalHeader>
-                {currentCancionData.id == 0 ? "Nuevo canción" : "Editar canción"}
+                {currentCancionData.id == 0 ? "Nueva canción" : "Editar canción"}
             </ModalHeader>
             <ModalBody>
                 <Form>

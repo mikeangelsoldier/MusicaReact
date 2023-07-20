@@ -14,7 +14,7 @@ const TablaCancion = ({ data, setCancionAEditar, showModalCancion, setShowModalC
         <Table striped responsive>
             <thead>
                 <tr>
-                    <th>Id</th>
+                    {/*<th>Id</th>*/}
                     <th>Nombre</th>
                     <th>Genero</th>
                     <th>Banda</th>
@@ -31,7 +31,7 @@ const TablaCancion = ({ data, setCancionAEditar, showModalCancion, setShowModalC
                     ) : (
                         data.map((item) => (
                             <tr key={item.id}>
-                                <td>{item.id}</td>
+                                {/*<td>{item.id}</td>*/}
                                 <td>{item.nombre}</td>
                                 <td>{item.genero}</td>
                                 <td>{item.banda}</td>

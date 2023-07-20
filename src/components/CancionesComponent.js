@@ -14,7 +14,7 @@ const CancionesComponent = () => {
 
   /* Inicio Logica Paginación */
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(2);
+  const [itemsPerPage] = useState(5);
   const totalPages = Math.ceil(canciones.length / itemsPerPage);
 
   const lastItem = currentPage * itemsPerPage;
